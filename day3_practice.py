@@ -1,0 +1,5 @@
+name=input("what is your name? ")
+part=input("where does it hurt? ")
+score=int(input("rate your pain 0 to 10: "))
+print("hello " + name + ", your " + part + " pain score is " + str(score) )
+print("after treatment, it will be " + str(score - 1))
